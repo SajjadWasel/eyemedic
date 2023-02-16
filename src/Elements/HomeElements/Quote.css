@@ -1,0 +1,28 @@
+.quote_section {
+    background-image: url(https://images.pexels.com/photos/4448826/pexels-photo-4448826.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote_section::before {
+    transform: rotate(30deg);
+    position: absolute;
+}
+
+.quotes {
+    background-color: rgb(49, 49, 49);
+    background-size: cover;
+    color: #ffffff;
+    opacity: 0.85;
+    padding-bottom: 5%;
+}
+
+.quote_section h1 {
+    font-size: 60px;
+    color: #ffffff;
+    opacity: none;
+}
+
+.quote h1:nth-child(1){
+    padding-top: 5%;
+}

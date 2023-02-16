@@ -1,0 +1,26 @@
+.patient_count {
+    background-image: url(https://i.ibb.co/7gP5Lz3/snill.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.patient_count div {
+    background-color: orangered;
+    height: 150px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    opacity: 0.9;
+    color: black;
+}
+
+.patient_count div h1 {
+    font-size: 50px;
+}

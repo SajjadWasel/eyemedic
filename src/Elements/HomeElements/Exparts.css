@@ -1,0 +1,14 @@
+.exparts {
+    display: flex;
+    margin: none;
+    align-items: center;
+}
+
+.exparts h1 {
+    font-size: 65px;
+}
+
+.exparts img {
+    height: 600px;
+    float: right;
+}

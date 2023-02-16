@@ -1,0 +1,26 @@
+.testimonial_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5;
+    margin-top: 5%;
+}
+
+.testimonial_section img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.testimonial_section p {
+    width: 200px;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 10px;
+    -webkit-clip-path: polygon(10% 14%, 0 0, 100% 0, 100% 66%, 100% 100%, 10% 100%);
+    clip-path: polygon(10% 14%, 0 0, 100% 0, 100% 66%, 100% 100%, 10% 100%);
+    background-color: rgba(247, 235, 227, 0.678);
+}
+
+.testimonial_section div {
+    margin: 5%;
+}
