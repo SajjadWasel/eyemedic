@@ -46,6 +46,10 @@
   background-color: orangered;
 }
 
+.text_orangered {
+  color: orangered;
+}
+
 .page_header {
   margin-top: 70px;
   background-image: url(https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&w=600s);

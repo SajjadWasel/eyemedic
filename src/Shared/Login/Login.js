@@ -4,9 +4,9 @@ import './Login.css';
 
 const Login = () => {
     return (
-        <Form data-aos="flip-up" className='login container w-50 d-flex flex-column p-5 shadow'>
+        <Form data-aos="flip-up" className='login container w-50 d-flex flex-column p-5 shadow mb-5'>
             <h1 className='text-center'>
-                <span className="text_orangered_span">Subscribe Our Newsletter</span>
+                <span className="text_orangered_span">Login</span>
             </h1>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Control className='rounded-pill' size="lg" type="email" placeholder="Enter email" />
@@ -24,6 +24,7 @@ const Login = () => {
             <button className='btn-custom rounded-pill px-5' type="submit">
                 Submit
             </button>
+            
         </Form>
     );
 };

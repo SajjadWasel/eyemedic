@@ -34,25 +34,32 @@ const Header = () => {
                     </Navbar.Brand>
                     <Nav className="ms-auto">
 
-                            <Nav.Link className='text-secondary ms-4'>
-                                <Link className='text-decoration-none text-secondary' to='/'>Home</Link>
-                            </Nav.Link>
-                            <Nav.Link className='text-secondary ms-4'>
-                                <Link className='text-decoration-none text-secondary' to='/about'>About</Link>
-                            </Nav.Link>
-                            <Nav.Link className='text-secondary ms-4'>
-                                <Link className='text-decoration-none text-secondary' to='/services'>Services</Link>
-                            </Nav.Link>
-                            <Nav.Link className='text-secondary ms-4'>
-                                <Link className='text-decoration-none text-secondary' to='/pricing'>Pricing</Link>
-                            </Nav.Link>
-                            <Nav.Link className='text-secondary ms-4'>
-                                <Link className='text-decoration-none text-secondary' to='/contact'>Contact</Link>
-                            </Nav.Link>
-                        
-                        
-                        <button className="btn-custom-outline ms-4">Login</button>
-                        <button className="btn-custom ms-4">Sign Up</button>
+                        <Nav.Link className='text-secondary ms-4'>
+                            <Link className='text-decoration-none text-secondary' to='/'>Home</Link>
+                        </Nav.Link>
+                        <Nav.Link className='text-secondary ms-4'>
+                            <Link className='text-decoration-none text-secondary' to='/about'>About</Link>
+                        </Nav.Link>
+                        <Nav.Link className='text-secondary ms-4'>
+                            <Link className='text-decoration-none text-secondary' to='/services'>Services</Link>
+                        </Nav.Link>
+                        <Nav.Link className='text-secondary ms-4'>
+                            <Link className='text-decoration-none text-secondary' to='/pricing'>Pricing</Link>
+                        </Nav.Link>
+                        <Nav.Link className='text-secondary ms-4'>
+                            <Link className='text-decoration-none text-secondary' to='/contact'>Contact</Link>
+                        </Nav.Link>
+
+                        <Link to='/login'>
+                            <button className="btn-custom-outline ms-4">
+                                Login
+                            </button>
+                        </Link>
+                        <Link to='/signup'>
+                            <button className="btn-custom ms-4">
+                                SignUp
+                            </button>
+                        </Link>
                     </Nav>
                 </Container>
             </Navbar>

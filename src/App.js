@@ -7,6 +7,8 @@ import Services from './Pages/Services/ServicesPage';
 import Pricing from './Pages/Pricing/Pricing';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Shared/Footer/Footer';
+import Login from './Shared/Login/Login';
+import SignUp from './Shared/SignUp/SignUp';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path='/Services' element={<Services></Services>}></Route>
         <Route path='/pricing' element={<Pricing></Pricing>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/signup' element={<SignUp></SignUp>}></Route>
 
       </Routes>
       <Footer></Footer>
