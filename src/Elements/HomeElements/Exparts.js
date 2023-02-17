@@ -10,7 +10,7 @@ const Exparts = () => {
                 <button className="btn-custom">See All Doctors</button>
                 <button className="btn-custom-outline ms-3">Book Consultency Now</button>
             </div>
-            <div data-aos="flip-right">
+            <div data-aos="fade-up">
                 <img src="https://i.ibb.co/pLyPd9s/snid.png" alt="" />
             </div>
         </div>

@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 
 const HeroSection = () => {
     return (
-        <div className='hero_section'>
+        <div className='hero_section mt-5 pt-2'>
 
             <div className='hero_section_flex container'>
                 <div>

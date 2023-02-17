@@ -1,6 +1,13 @@
 .footer {
     padding: 5%;
     background-color: orangered;
-    margin-top: 10%;
     color: white;
+}
+
+.footer_logo {
+    color: #8dffe6;
+}
+
+.footer_logo span {
+    color: rgb(255, 255, 255);
 }

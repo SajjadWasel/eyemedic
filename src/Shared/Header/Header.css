@@ -1,0 +1,12 @@
+.navbar a {
+    color: darkgray;
+    font-weight: 400;
+}
+
+.navbar span {
+    color: orangered;
+}
+
+.navbar b {
+    color: #8dffe6;
+}

@@ -20,7 +20,7 @@ const Home = () => {
             <Quote></Quote>
             <WhyChooseUs></WhyChooseUs>
             <Login></Login>
-            <Footer></Footer>
+            <br /><br />
         </div>
     );
 };

@@ -41,3 +41,21 @@
 .heading {
   font-size: 55px;
 }
+
+.bg_orangred {
+  background-color: orangered;
+}
+
+.page_header {
+  margin-top: 70px;
+  background-image: url(https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&w=600s);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page_header h1 {
+  background-color: rgb(255, 68, 0);
+  padding: 100px;
+  font-size: 50px;
+  opacity: 0.9;
+}
