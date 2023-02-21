@@ -49,7 +49,7 @@ const AboutRows = () => {
                     <p className="text-light pb-3">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam saepe voluptates doloremque excepturi asperiores beatae ducimus, deserunt magnam ratione suscipit veritatis inventore dignissimos dicta, cumque vel aperiam totam rerum reprehenderit in. Deleniti ullam exercitationem commodi iusto quia cupiditate atque, laborum corrupti tenetur illum aut sit vero repudiandae quod delectus veritatis dolore? Et vero ad odio? Quas amet maxime porro tempore eaque sequi nulla aperiam repellat voluptates, eius perferendis itaque earum molestiae dolores nam deserunt soluta veniam quaerat non quibusdam veritatis. Ex excepturi voluptate, provident velit eos laborum obcaecati sapiente voluptatibus quisquam sint omnis iste dolor, minus corrupti est quae reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime facere ipsum architecto aut.  Accusantium maxime facere ipsum architecto aut. Accusantium maxime facere ipsum architecto aut
                     </p>
-                    <button className="btn-custom-outline">See Services</button>
+                    <button className="btn-custom-outline border border-light">See Services</button>
                 </div>
                 <div>
                     <img className='w-100 h-100' src="https://images.pexels.com/photos/1500459/pexels-photo-1500459.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
