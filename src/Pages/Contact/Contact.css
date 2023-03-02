@@ -1,10 +1,27 @@
+.contact {
+    border: 4px solid orangered;
+    border-radius: 20px;
+}
+
 .contact-form {
     border-radius: 15px;
-    box-shadow: 5px 5px 10px rgb(216, 216, 216);
+    box-shadow: 5px 5px 10px rgb(248, 200, 184);
 }
 
 .contact-text {
-    background-color: #8dffe6;
     border-radius: 15px;
-    
+    background-image: url('https://images.pexels.com/photos/269790/pexels-photo-269790.jpeg?auto=compress&cs=tinysrgb&w=600');
+    color: white;
+}
+
+.contact-text-container {
+    background: orangered;
+    opacity: 0.8;
+    border-radius: 15px;
+    color: white;
+}
+
+.contact-text-container h1, h5 {
+    opacity: 1;
+    z-index: 1;
 }

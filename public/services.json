@@ -1,0 +1,64 @@
+{
+    "services": [
+        {
+            "id": 0,
+            "name": "Retinal Exam",
+            "description": "An exam to evaluate the retina, which can detect early signs of eye diseases such as age-related macular degeneration.",
+            "image": "https://example.com/images/retinal_exam.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Eye Exam",
+            "description": "A comprehensive exam to evaluate vision and eye health.",
+            "image": "https://example.com/images/eye_exam.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Contact Lens Fitting",
+            "description": "An appointment to determine the best type of contact lenses for your eyes.",
+            "image": "https://example.com/images/contact_lens_fitting.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Glasses Fitting",
+            "description": "A consultation to choose the right glasses frames and lenses for your vision needs.",
+            "image": "https://example.com/images/glasses_fitting.jpg"
+        },
+        {
+            "id": 4,
+            "name": "LASIK Consultation",
+            "description": "A discussion with an eye doctor to determine if LASIK is right for you.",
+            "image": "https://example.com/images/lasik_consultation.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Cataract Surgery",
+            "description": "A surgical procedure to remove a clouded lens and replace it with an artificial lens.",
+            "image": "https://example.com/images/cataract_surgery.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Glaucoma Treatment",
+            "description": "A variety of treatments to manage or slow the progression of glaucoma.",
+            "image": "https://example.com/images/glaucoma_treatment.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Dry Eye Treatment",
+            "description": "A range of treatments to relieve symptoms of dry eyes, such as artificial tears or prescription medications.",
+            "image": "https://example.com/images/dry_eye_treatment.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Diabetic Eye Exam",
+            "description": "An eye exam specifically designed for people with diabetes, who are at higher risk for eye problems.",
+            "image": "https://example.com/images/diabetic_eye_exam.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Pediatric Eye Exam",
+            "description": "A comprehensive eye exam for children to detect any vision problems or eye conditions.",
+            "image": "https://example.com/images/pediatric_eye_exam.jpg"
+        }
+    ]
+}

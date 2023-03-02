@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeroSection.css';
 import Form from 'react-bootstrap/Form';
+import Typewriter from 'typewriter-effect';
 
 
 const HeroSection = () => {
@@ -9,9 +10,25 @@ const HeroSection = () => {
 
             <div className='hero_section_flex container'>
                 <div>
-                    <h1 className="hero-text">
-                        WE ARE THE BEST <span className='text_orangered_span'>EYE CARE HOSPITAL</span> IN BANGLADESH
+                    <h1 className="hero-text mt-4">
+                        WE ARE THE BEST
+                        <span className='text_orangered_span'>
+                            HOSPITAL UNDER
+                        </span>
+                        BANGLADESH FOR
+                        <Typewriter
+                            options={{
+                                strings: ['Eye Care', 'Eye Surgery', 'Eye Medicine'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
                     </h1>
+
+
+
+
+                    {/* ================ Main Text Ends ========== */}
                     <Form.Group className="hero-form my-3" controlId="formGroupEmail">
                         <Form.Control size="lg" type="email" placeholder="Enter Your Email Here" />
                     </Form.Group>

@@ -33,6 +33,7 @@ const Header = () => {
     window.addEventListener('scroll', changeBackground);
 
 
+
     return (
         <div>
             <Navbar bg={NavColor} className={`${shadow} navbar fixed-top`} variant="light">
@@ -63,7 +64,7 @@ const Header = () => {
 
                                 <div>
                                         <button className="btn-custom-outline ms-4">
-                                            {user?.email}
+                                            {user?.displayName}
                                         </button>
                                         <button
                                          onClick={async () => {

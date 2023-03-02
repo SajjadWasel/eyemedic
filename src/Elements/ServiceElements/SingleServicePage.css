@@ -1,0 +1,20 @@
+.single-service {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.single-service-card {
+    height: 180px;
+    width: 42%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(226, 209, 189);
+    margin: 2%;
+}
+
+.single-service-card img {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
