@@ -4,61 +4,61 @@
             "id": 0,
             "name": "Retinal Exam",
             "description": "An exam to evaluate the retina, which can detect early signs of eye diseases such as age-related macular degeneration.",
-            "image": "https://example.com/images/retinal_exam.jpg"
+            "image": "https://images.unsplash.com/photo-1563223552-30d01fda3ead?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGV5ZWJhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         },
         {
             "id": 1,
             "name": "Eye Exam",
             "description": "A comprehensive exam to evaluate vision and eye health.",
-            "image": "https://example.com/images/eye_exam.jpg"
+            "image": "https://images.unsplash.com/photo-1578496480157-697fc14d2e55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGV5ZWJhbGwlMjB0ZXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
         },
         {
             "id": 2,
             "name": "Contact Lens Fitting",
             "description": "An appointment to determine the best type of contact lenses for your eyes.",
-            "image": "https://example.com/images/contact_lens_fitting.jpg"
+            "image": "https://plus.unsplash.com/premium_photo-1661559111699-a3320169ffb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXllJTIwdGVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         },
         {
             "id": 3,
             "name": "Glasses Fitting",
             "description": "A consultation to choose the right glasses frames and lenses for your vision needs.",
-            "image": "https://example.com/images/glasses_fitting.jpg"
+            "image": "https://images.unsplash.com/photo-1517948430535-1e2469d314fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZXllJTIwdGVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         },
         {
             "id": 4,
             "name": "LASIK Consultation",
             "description": "A discussion with an eye doctor to determine if LASIK is right for you.",
-            "image": "https://example.com/images/lasik_consultation.jpg"
+            "image": "https://images.unsplash.com/photo-1565428744974-f41cf79c05fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZXllJTIwdGVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         },
         {
             "id": 5,
             "name": "Cataract Surgery",
             "description": "A surgical procedure to remove a clouded lens and replace it with an artificial lens.",
-            "image": "https://example.com/images/cataract_surgery.jpg"
+            "image": "https://images.unsplash.com/photo-1551601651-bc60f254d532?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZXllJTIwc3VyZ2VyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         },
         {
             "id": 6,
             "name": "Glaucoma Treatment",
             "description": "A variety of treatments to manage or slow the progression of glaucoma.",
-            "image": "https://example.com/images/glaucoma_treatment.jpg"
+            "image": "https://images.unsplash.com/photo-1551601651-71a596031b84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZXllJTIwc3VyZ2VyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         },
         {
             "id": 7,
             "name": "Dry Eye Treatment",
             "description": "A range of treatments to relieve symptoms of dry eyes, such as artificial tears or prescription medications.",
-            "image": "https://example.com/images/dry_eye_treatment.jpg"
+            "image": "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWVkaWNhbCUyMG1lY2hpbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
         },
         {
             "id": 8,
             "name": "Diabetic Eye Exam",
             "description": "An eye exam specifically designed for people with diabetes, who are at higher risk for eye problems.",
-            "image": "https://example.com/images/diabetic_eye_exam.jpg"
+            "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1lZGljYWwlMjBtZWNoaW5lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         },
         {
             "id": 9,
             "name": "Pediatric Eye Exam",
             "description": "A comprehensive eye exam for children to detect any vision problems or eye conditions.",
-            "image": "https://example.com/images/pediatric_eye_exam.jpg"
+            "image": "https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=600"
         }
     ]
 }

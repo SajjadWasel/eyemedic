@@ -7,7 +7,7 @@ const SingleService = ({ service }) => {
 
     return (
         <div data-aos="fade-up" className='service-card d-flex'>
-            <img src="https://i.ibb.co/nzwfzsb/bg-3.png" alt="" />
+            <img src={image} alt="" />
             <div className='pt-3'>
                 <h4>{name}</h4>
                 <p>{description}</p>
