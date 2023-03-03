@@ -18,7 +18,7 @@ const Services = () => {
             <h1 className='heading text-center'><span className="text_orangered_span" data-aos="zoom-in">Our Services</span></h1>
 
             {/* ==========Main Service Cards */}
-            <div className='d-flex container mt-5 flex-wrap'>
+            <div className='d-flex container mt-2 flex-wrap'>
 
                 {
                     services?.services?.map(service => (

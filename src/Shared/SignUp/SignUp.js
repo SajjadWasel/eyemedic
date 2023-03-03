@@ -42,15 +42,13 @@ const SignUp = () => {
 
         createUserWithEmailAndPassword(email, password)
 
-        /*
-        const successUpdate = await updateProfile({displayName: username})
-        if(successUpdate){
-            navigate('/')
-        }
-        else{
-            alert(error1)
-        }
-        */
+        // const successUpdate = await updateProfile({displayName: username})
+        // if(successUpdate){
+        //     navigate('/')
+        // }
+        // else{
+        //     alert(error1)
+        // }
     }
 
 

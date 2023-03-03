@@ -6,9 +6,9 @@ const SingleService = ({ service }) => {
 
 
     return (
-        <div data-aos="fade-up" className='service-card d-flex align-items-center'>
+        <div data-aos="fade-up" className='service-card d-flex'>
             <img src="https://i.ibb.co/nzwfzsb/bg-3.png" alt="" />
-            <div className=''>
+            <div className='pt-3'>
                 <h4>{name}</h4>
                 <p>{description}</p>
                 <Link to={`/services/${id}`}>

@@ -63,19 +63,21 @@ const Header = () => {
                             user ?
 
                                 <div>
+                                    <Link to='/profile'>
                                         <button className="btn-custom-outline ms-4">
-                                            {user?.displayName}
+                                            {user?.displayName ? user?.displayName : user.email}
                                         </button>
-                                        <button
-                                         onClick={async () => {
+                                    </Link>
+                                    <button
+                                        onClick={async () => {
                                             const success = await signOut();
                                             if (success) {
-                                              alert('You are sign out');
+                                                alert('You are sign out');
                                             }
-                                          }} 
+                                        }}
                                         className="btn-custom ms-4">
-                                            Sign Out
-                                        </button>
+                                        Sign Out
+                                    </button>
                                 </div>
 
                                 :

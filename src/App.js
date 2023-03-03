@@ -11,6 +11,9 @@ import Login from './Shared/Login/Login';
 import SignUp from './Shared/SignUp/SignUp';
 import NotFound from './Pages/NotFound/NotFound';
 import SingleServicePage from './Elements/ServiceElements/SingleServicePage';
+import Profile from './Pages/Profile/Profile';
+import PrivateRoute from './Shared/PrivateRoute/PrivateRoute';
+import LoginRoute from './Shared/PrivateRoute/LoginRoute';
 
 function App() {
   return (
@@ -26,11 +29,35 @@ function App() {
         />
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/Services' element={<Services></Services>}></Route>
-        <Route path='/Services/:serviceId' element={<SingleServicePage></SingleServicePage>}></Route>
+        <Route
+          path='/Services/:serviceId'
+          element={
+            <PrivateRoute>
+              <SingleServicePage></SingleServicePage>
+            </PrivateRoute>}></Route>
         <Route path='/pricing' element={<Pricing></Pricing>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
-        <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/signup' element={<SignUp></SignUp>}></Route>
+        <Route
+          path='/login'
+          element={
+            <LoginRoute>
+              <Login></Login>
+            </LoginRoute>
+          }></Route>
+        <Route path='/signup' element={
+          <LoginRoute>
+            <SignUp></SignUp>
+          </LoginRoute>
+        }>
+
+        </Route>
+        <Route
+          path='/profile'
+          element={
+            <PrivateRoute>
+              <Profile></Profile>
+            </PrivateRoute>}>
+        </Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
 
       </Routes>
