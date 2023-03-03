@@ -1,13 +1,12 @@
 import React, { useRef } from 'react';
-import { ToastContainer, toast, Flip } from 'react-toastify';
 import { Form } from 'react-bootstrap';
 import { Link, Navigate, redirect, useNavigate } from 'react-router-dom';
-import 'react-toastify/dist/ReactToastify.css';
 import './Login.css';
 import { useAuthState, useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import { FcGoogle } from 'react-icons/fc';
 import { FaFacebook } from 'react-icons/fa';
+
 
 const Login = () => {
 
@@ -29,32 +28,8 @@ const Login = () => {
     let error_message = error?.message;
     let loading_message = loading?.message;
 
-    const notify = () => toast.error(error_message, {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-    });
-
-    const notifyLoading = () => toast.loading(loading_message, {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-    });
-
-    if (error) {
-        notify();
-    }
-
+  
+ 
     const handleSignIn = (event) => {
         event.preventDefault();
         const email = emailRef.current.value;
@@ -86,21 +61,8 @@ const Login = () => {
 
 
                 {/* ============================ */}
-                <p>{error ? error.message : ''}</p>
-                <ToastContainer
-                    position="top-right"
-                    autoClose={5000}
-                    hideProgressBar={false}
-                    newestOnTop={false}
-                    closeOnClick
-                    rtl={false}
-                    pauseOnFocusLoss
-                    draggable
-                    pauseOnHover
-                    theme="dark"
-                    transition={Flip}
-                />
-                
+                <p className='text-center text-danger'>{error ? error.message : ''}</p>
+               
 
 
 

@@ -45,9 +45,10 @@ function App() {
             </LoginRoute>
           }></Route>
         <Route path='/signup' element={
-          <LoginRoute>
-            <SignUp></SignUp>
-          </LoginRoute>
+          // <LoginRoute>
+            
+          // </LoginRoute>
+          <SignUp></SignUp>
         }>
 
         </Route>
